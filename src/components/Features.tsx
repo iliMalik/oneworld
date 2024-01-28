@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Building Trust Through Experience",
+    title: "Trust Through Experience",
     description:
       "Trust is the cornerstone of our relationships. With a foundation built on trust, we prioritize maintaining your property's integrity. Our deep industry knowledge ensures thorough guest screening and preemptive safety measures. Your property is not just an asset; it's our responsibility.",
     features: ["Expeirence ", "Screening", "Professionalism"],
@@ -11,7 +11,7 @@ const contents = [
     order: false,
   },
   {
-    title: "State-of-the-Art Security Measures",
+    title: "Security Measures",
     description:
       "Ensure safety with advanced security features. Each unit is equipped with Ring Video cameras at the entrance, 24/7 monitoring, noise detectors for alerts on excessive noise, and smart locks generating unique codes for each guest. Safety and security are paramount in our commitment to you.",
     features: ["Monitoring", "Smart locks", "Smoke & Noise"],
@@ -19,7 +19,7 @@ const contents = [
     order: true,
   },
   {
-    title: "In-House Cleaning Excellence",
+    title: "Cleaning Excellence",
     description:
       "Differentiating ourselves, we employ an in-house cleaning staff for maximum quality control. No outsourcing; our team focuses on even the minutest details, ensuring professional-level cleanliness after every stay. Your property deserves nothing less than a five-star review.",
     features: [

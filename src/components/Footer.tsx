@@ -94,8 +94,11 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Halley is ipsum dolor sit amet consectetur adipisicing itaque enim
-            labore dolores culpa consequatur harum.
+            Unlock a world of worry-free property management with us—where
+            stable income meets efficient care. Trust in our expertise,
+            cutting-edge security, and top-notch cleanliness. Join our journey
+            of seamless operations, redefining standards, and expanding
+            possibilities for landlords like you.
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
