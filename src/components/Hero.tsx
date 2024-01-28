@@ -8,13 +8,14 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">Halley</span>
+            <span className="text-rose-500 font-extrabold">ONE WORLD</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
-            Plantilla de aplicación de página única (SPA) desarrollada con
-            Next.js, TypeScript y TailwindCSS. Personalizable y algunas
-            secciones para agregar información importante sobre un producto o un
-            servicio.
+            Unlock a world of worry-free property management with us—where
+            stable income meets efficient care. Trust in our expertise,
+            cutting-edge security, and top-notch cleanliness. Join our journey
+            of seamless operations, redefining standards, and expanding
+            possibilities for landlords like you.
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
@@ -26,7 +27,10 @@ export function Hero() {
             </div>
 
             <div>
-              <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
+              <Link
+                href="https://github.com/humberni/halley/blob/main/README.md"
+                target="_blank"
+              >
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
                   Documentación
                 </button>

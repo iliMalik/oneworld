@@ -9,8 +9,8 @@ const Layout = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Halley",
-    description: `Halley is a landing page template built with Nextjs and Tailwindcss`,
+    title: "One World",
+    description: `A real estate company specializing in property holding and management`,
     image: "/images/seo/halley-banner.png",
     type: "website",
     ...customMeta,
@@ -26,7 +26,7 @@ const Layout = (props: any) => {
           property="og:url"
           content={`https://halley.vercel.app${router.asPath}`}
         />
-          <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />

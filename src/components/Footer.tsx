@@ -58,7 +58,7 @@ const social = [
 const column1 = [
   { name: "Home", href: "/" },
   { name: "Services", href: "#services" },
-  { name: "Pricing", href: "#pricing" },
+  { name: "Features", href: "#features" },
   { name: "Faq", href: "#faq" },
   { name: "Contact", href: "#contact" },
 ];

@@ -3,37 +3,28 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Dashboard",
+    title: "Building Trust Through Experience",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
-    features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
-    ],
+      "Trust is the cornerstone of our relationships. With a foundation built on trust, we prioritize maintaining your property's integrity. Our deep industry knowledge ensures thorough guest screening and preemptive safety measures. Your property is not just an asset; it's our responsibility.",
+    features: ["Expeirence ", "Screening", "Professionalism"],
     image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Products",
+    title: "State-of-the-Art Security Measures",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
-    features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
-    ],
+      "Ensure safety with advanced security features. Each unit is equipped with Ring Video cameras at the entrance, 24/7 monitoring, noise detectors for alerts on excessive noise, and smart locks generating unique codes for each guest. Safety and security are paramount in our commitment to you.",
+    features: ["Monitoring", "Smart locks", "Smoke & Noise"],
     image: "/images/features/product.svg",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "In-House Cleaning Excellence",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "Differentiating ourselves, we employ an in-house cleaning staff for maximum quality control. No outsourcing; our team focuses on even the minutest details, ensuring professional-level cleanliness after every stay. Your property deserves nothing less than a five-star review.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "Cleaned after every checkout according to SOP",
+      "Inspected by Managers frequently",
     ],
     image: "/images/features/inventory.svg",
     order: false,
@@ -46,8 +37,12 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+          At ONE WORLD Property Holdings, we pride ourselves on our deep
+          industry knowledge and expertise in property management, ensuring that
+          your residential property is in good hands. We also make trust and
+          safety top priorities, so you can feel confident and secure with our
+          services. Choose ONE WORLD Property Holdings for a hassle-free and
+          professional property management experience.
         </p>
 
         {contents.map((content) => (
