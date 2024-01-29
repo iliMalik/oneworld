@@ -10,7 +10,7 @@ const Layout = (props: any) => {
   const meta = {
     title: "One World",
     description: `A real estate company specializing in property holding and management`,
-    image: "/images/seo/halley-banner.png",
+    image: "/logos/seo/halley-banner.png",
     type: "website",
     ...customMeta,
   };

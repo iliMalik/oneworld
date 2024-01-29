@@ -14,7 +14,6 @@ export function Hero() {
             quality={75}
             sizes="100vw"
           />
-
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
             Unlock a world of worry-free property management with us—where
             stable income meets efficient care. Trust in our expertise,

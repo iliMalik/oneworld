@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/oneworld.svg"
+              src="/images/logos/logo_only.png"
               alt="Logo Your Company"
               width={150}
               height={150}
