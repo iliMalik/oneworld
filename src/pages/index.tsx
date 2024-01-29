@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import { Features } from "../components/Features";
 import { Services } from "../components/Services";
 import Faq from "../components/Faq";
-import Customers from "../components/Customers";
+import TWN from "../components/tailwind";
 
 export default function Home() {
   return (

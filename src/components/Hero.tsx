@@ -1,15 +1,20 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export function Hero() {
   return (
     <div className="bg-white dark:bg-neutral-900">
       <div className="max-w-7xl mx-auto pt-20 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
-          <h1 className="text-5xl font-bold">
-            Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">ONE WORLD</span>
-          </h1>
+          <Image
+            className="h-40 w-auto"
+            src="/images/logos/oneworld.svg"
+            alt="Logo Your Company"
+            width={150}
+            height={150}
+            quality={75}
+            sizes="100vw"
+          />
+
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
             Unlock a world of worry-free property management with us—where
             stable income meets efficient care. Trust in our expertise,
@@ -17,31 +22,11 @@ export function Hero() {
             of seamless operations, redefining standards, and expanding
             possibilities for landlords like you.
           </p>
-          <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
-            <div>
-              <Link href="#services">
-                <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
-                  Ver más
-                </button>
-              </Link>
-            </div>
-
-            <div>
-              <Link
-                href="https://github.com/humberni/halley/blob/main/README.md"
-                target="_blank"
-              >
-                <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
-                  Documentación
-                </button>
-              </Link>
-            </div>
-          </div>
         </div>
 
-        <div className="flex items-center mt-12">
+        <div className="hidden md:block md:col-start-2 md:row-start-1">
           <Image
-            src="/images/hero/hero.svg"
+            src="/images/hero/home.jpg"
             alt="Image hero description"
             width={1025}
             height={662}
@@ -50,6 +35,18 @@ export function Hero() {
             priority
           />
         </div>
+      </div>
+
+      <div className="flex place-items-start mt-12 md:hidden">
+        <Image
+          src="/images/hero/home.jpg"
+          alt="Image hero description"
+          width={1025}
+          height={662}
+          quality={75}
+          sizes="100vw"
+          priority
+        />
       </div>
     </div>
   );

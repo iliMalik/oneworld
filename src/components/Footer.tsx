@@ -59,7 +59,7 @@ const column1 = [
   { name: "Home", href: "/" },
   { name: "Services", href: "#services" },
   { name: "Features", href: "#features" },
-  { name: "Faq", href: "#faq" },
+  { name: "About Us", href: "#faq" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-rose.svg"
+              src="/images/logos/oneworld.svg"
               alt="Logo Your Company"
               width={150}
               height={150}
@@ -125,39 +125,6 @@ export default function Footer() {
               {item.name}
             </Link>
           ))}
-        </div>
-
-        <div>
-          <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            RESOURCES
-          </h3>
-          {column2.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="hover:text-rose-500 md:text-sm my-4 grid"
-            >
-              {item.name}
-            </Link>
-          ))}
-        </div>
-
-        <div>
-          <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            LEGAL
-          </h3>
-          {column3.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="hover:text-rose-500 md:text-sm my-4 grid"
-            >
-              {item.name}
-            </Link>
-          ))}
-          <div className="mt-12">
-            <ThemeSwitchOption />
-          </div>
         </div>
       </div>
 
